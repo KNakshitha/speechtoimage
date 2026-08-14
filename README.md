@@ -43,26 +43,37 @@ speechtoimage/
 ​🚀 Getting Started
 
 ​1. Prerequisites
+
 ​  Make sure you have Python 3.8+ installed on your system.
 
 ​2. Clone the Repository
-  git clone [https://github.com/Klakshitha/speechtoimage.git](https://github.com/Klakshitha/speechtoimage.git)
-cd speechtoimage
 
+  git clone [https://github.com/Klakshitha/speechtoimage.git](https://github.com/Klakshitha/speechtoimage.git)
+  cd speechtoimage
+
+  
 3. Install Dependencies
-  pip install flask
-Add any additional packages if used, e.g., SpeechRecognition, PyAudio)
+   
+   pip install flask
+  
+  Add any additional packages if used, e.g., SpeechRecognition, PyAudio)
 
 ​4. Run the Application
+
   python app.py
   
+  
 5. Open in Browser
-​Visit the following local address in your web browser:
+   
+​  Visit the following local address in your web browser:
+
   [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
   
 🎯 How It Works
 
 1.​Click the microphone button on the web interface.
+
 2.​Speak a keyword or phrase clearly into the microphone.
+
 3.​The system processes the voice input, queries the database, and renders the corresponding image on the screen.
