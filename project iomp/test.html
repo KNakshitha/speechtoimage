@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="startVoice()">Test Voice</button>
+
+<script>
+
+function startVoice(){
+
+const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+const recognition = new SpeechRecognition();
+
+recognition.start();
+
+recognition.onresult = function(event){
+
+alert(event.results[0][0].transcript);
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
